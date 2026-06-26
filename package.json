@@ -1,14 +1,13 @@
 {
-  "name": "@bu0nq/scss-function-rem",
-  "version": "2.0.0",
+  "name": "@m2collective/scss-function-rem",
+  "version": "0.1.0",
   "description": "A package for integrating the px to rem conversion function.",
   "keywords": [
+    "m2collective",
     "scss",
-    "style",
-    "frontend",
     "function",
-    "functions",
-    "rem"
+    "rem",
+    "style"
   ],
   "main": "index.scss",
   "exports": {
@@ -17,22 +16,22 @@
       "default": "./index.scss"
     }
   },
-  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "MIT",
   "author": {
     "name": "bu0nq",
     "email": "hello@bu0nq.ru"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bu0nq/scss-function-rem.git"
+    "url": "git+https://github.com/m2collective/scss-function-rem.git"
   },
   "bugs": {
-    "url": "https://github.com/bu0nq/scss-function-rem/issues"
+    "url": "https://github.com/m2collective/scss-function-rem/issues"
   },
-  "homepage": "https://github.com/bu0nq/scss-function-rem#readme",
+  "homepage": "https://github.com/m2collective/scss-function-rem#readme",
   "publishConfig": {
     "access": "public"
   }
