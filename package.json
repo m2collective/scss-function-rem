@@ -1,13 +1,14 @@
 {
   "name": "@m2collective/scss-function-rem",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A package for integrating the px to rem conversion function.",
   "keywords": [
     "m2collective",
     "scss",
     "function",
     "rem",
-    "style"
+    "style",
+    "front-end"
   ],
   "main": "index.scss",
   "exports": {

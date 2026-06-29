@@ -38,16 +38,6 @@ You can change the namespace during function import and use the function with a 
 
 ```scss
 @use "@m2collective/scss-function-rem" as function;
-
-.demo {
-    font-size: function.rem(16px);
-}
-
-// Return
-
-.demo {
-    font-size: 1rem;
-}
 ```
 
 ## Changing the variables
@@ -58,16 +48,6 @@ You can redefine the default values for the specified variables when importing t
 @use "@m2collective/scss-function-rem" as * with (
     $default: 16,
 );
-
-.demo {
-    font-size: rem(16px);
-}
-
-// Return
-
-.demo {
-    font-size: 1rem;
-}
 ```
 
 ## License
